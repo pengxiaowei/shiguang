@@ -10,7 +10,7 @@ import { User } from './user.model';
 export class Image {
   @ApiProperty({ description: '标题' })
   @prop()
-  title: string; 
+  title: string;
 
   @ApiProperty({ description: '描述' })
   @prop()
@@ -27,5 +27,8 @@ export class Image {
   @ApiProperty({ description: '浏览量' })
   @prop()
   views: number;
-  
+
+  @ApiProperty({ description: '标签' })
+  @prop()
+  tag: number;
 }

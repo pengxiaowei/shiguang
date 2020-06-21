@@ -14,4 +14,6 @@ export class Category {
   @ApiProperty({ description: '分类名' })
   @prop()
   name: string;
+
+  
 }

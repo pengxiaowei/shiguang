@@ -5,9 +5,10 @@ import { DbModule } from '@libs/db';
 import { UsersModule } from './users/users.module';
 import { CategoriesModule } from './categories/categories.module';
 import { ImagesModule } from './images/images.module';
+import { TypesModule } from './types/types.module';
 
 @Module({
-  imports: [DbModule, UsersModule, CategoriesModule, ImagesModule],
+  imports: [DbModule, UsersModule, CategoriesModule, ImagesModule, TypesModule],
   controllers: [AppController],
   providers: [AppService],
 })

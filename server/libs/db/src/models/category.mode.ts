@@ -7,13 +7,9 @@ import { ApiProperty } from '@nestjs/swagger';
   },
 })
 export class Category {
-  @ApiProperty({ description: '类型' })
-  @prop()
-  type: string;
-
   @ApiProperty({ description: '分类名' })
   @prop()
   name: string;
 
-  
+
 }
